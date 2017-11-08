@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "sandstorm/nodetreestyling",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sandstorm\\NodeTreeStyling\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Sandstorm.NodeTreeStyling"
+        }
+    }
+}

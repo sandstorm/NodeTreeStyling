@@ -1,0 +1,7 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'Sandstorm.NodeTreeStyling:NodeTreeStyling':
+            resource: resource://Sandstorm.NodeTreeStyling/Public/NodeTreeStyling/Plugin.js
