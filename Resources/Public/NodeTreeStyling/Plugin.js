@@ -375,8 +375,8 @@
 	    // As TreeNodeHeader is the used somewhere in the result of Node.render(), we parse the returned React Element tree,
 	    // copy and modify it if we find the Tree Node Header.
 	    ///////////////////////////////////////////////////
-	    var originalRender = ChildRenderer.WrappedComponent.WrappedComponent.prototype.render;
-	    ChildRenderer.WrappedComponent.WrappedComponent.prototype.render = function () {
+	    var originalRender = TreeNode.prototype.render;
+	    TreeNode.prototype.render = function () {
 	        var _this = this;
 	
 	        var results = originalRender.apply(this, arguments);
